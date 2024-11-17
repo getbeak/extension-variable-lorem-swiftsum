@@ -1,6 +1,6 @@
-# @getbeak/extension-lorem-swiftsum
+# @getbeak/extension-variable-lorem-swiftsum
 
-A Beak realtime value extension, that will generate Taylor Swift inspired lorem ipsum placeholder content.
+A Beak variable extension, that will generate Taylor Swift inspired lorem ipsum placeholder content.
 
 
 ## Getting started
@@ -8,7 +8,8 @@ A Beak realtime value extension, that will generate Taylor Swift inspired lorem 
 Install this npm package in your Beak project's extensions folder using yarn. You won't need to restart Beak as changes to extensions are picked up automatically.
 
 ```
-$ yarn add @getbeak/extension-lorem-swiftsum
+$ yarn add @getbeak/extension-variable-lorem-swiftsum
+$ npm install @getbeak/extension-variable-lorem-swiftsum
 ```
 
 ## More information?

@@ -1,4 +1,4 @@
-import type { EditableRealtimeValue } from '@getbeak/types-realtime-value';
+import type { EditableVariable } from '@getbeak/types-variables';
 import lyrics from './lyrics.json';
 
 const lyricCount = lyrics.length;
@@ -7,7 +7,7 @@ interface Payload {
 	paragraphs: number;
 }
 
-const extension: EditableRealtimeValue<Payload, Payload> = {
+const extension: EditableVariable<Payload, Payload> = {
 	name: 'Lorem Swiftsum',
 	description: 'Generate some Lorem Ipsum style placeholder content, Taylor Swift inspired.',
 	sensitive: false,
